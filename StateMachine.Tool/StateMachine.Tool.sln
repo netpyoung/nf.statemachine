@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMachine.Tool.CLI", "StateMachine.Tool.CLI\StateMachine.Tool.CLI.csproj", "{98EE95CD-B7BB-4B45-A5AA-5F6777615398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMachine.Tool.Adapter.yWorks", "StateMachine.Tool.Adapter.yWorks\StateMachine.Tool.Adapter.yWorks.csproj", "{7BE57A57-BF8F-488E-90D5-FA11220A1FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMachine.Tool.Core", "StateMachine.Tool.Core\StateMachine.Tool.Core.csproj", "{1941A19E-23AA-4284-80A6-D80D613D7A87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98EE95CD-B7BB-4B45-A5AA-5F6777615398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98EE95CD-B7BB-4B45-A5AA-5F6777615398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98EE95CD-B7BB-4B45-A5AA-5F6777615398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98EE95CD-B7BB-4B45-A5AA-5F6777615398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE57A57-BF8F-488E-90D5-FA11220A1FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE57A57-BF8F-488E-90D5-FA11220A1FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE57A57-BF8F-488E-90D5-FA11220A1FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE57A57-BF8F-488E-90D5-FA11220A1FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1941A19E-23AA-4284-80A6-D80D613D7A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1941A19E-23AA-4284-80A6-D80D613D7A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1941A19E-23AA-4284-80A6-D80D613D7A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1941A19E-23AA-4284-80A6-D80D613D7A87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

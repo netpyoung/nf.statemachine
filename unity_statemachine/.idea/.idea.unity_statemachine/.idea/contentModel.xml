@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_unity_statemachine.-1907690348.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="Editor" t="Include">
+            <e p="JetBrains" t="Include">
+              <e p="Unity3DRider.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Sample01" t="Include">
+          <e p="output" t="Include">
+            <e p="Sample01ActionToken.autogen.cs" t="Include" />
+            <e p="Sample01StateMachine.autogen.cs" t="Include" />
+            <e p="Sample01StateToken.autogen.cs" t="Include" />
+            <e p="States" t="Include">
+              <e p="BaseSample01State.autogen.cs" t="Include" />
+              <e p="Sample01AState.autogen.cs" t="Include" />
+              <e p="Sample01BState.autogen.cs" t="Include" />
+              <e p="Sample01C1State.autogen.cs" t="Include" />
+              <e p="Sample01C2State.autogen.cs" t="Include" />
+              <e p="Sample01DState.autogen.cs" t="Include" />
+              <e p="Sample01ErrorState.autogen.cs" t="Include" />
+            </e>
+          </e>
+          <e p="src" t="Include">
+            <e p="Sample01AState.cs" t="Include" />
+            <e p="Sample01BState.cs" t="Include" />
+            <e p="Sample01C1State.cs" t="Include" />
+            <e p="Sample01C2State.cs" t="Include" />
+            <e p="Sample01DState.cs" t="Include" />
+          </e>
+        </e>
+        <e p="test_statemachine.cs" t="Include" />
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="unity_statemachine.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

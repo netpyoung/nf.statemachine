@@ -1,0 +1,26 @@
+/*
+ ###########################################################
+ ### Warning: this file has been generated automatically ###
+ ###                    DO NOT MODIFY                    ###
+ ###########################################################
+*/
+
+using System;
+using NF.StateMachine;
+
+namespace {{ a.name }}
+{
+    public static class {{ a.name }}ActionTokens
+    {
+        {%- for token in a.tokens -%}
+        public static readonly ActionToken {{ token }} = new ActionToken(nameof({{ token }}));
+        {%- endfor -%}
+
+        public static readonly ActionToken[] Items = 
+        {
+        {%- for token in a.tokens -%}
+            {{ token }},
+        {%- endfor -%}
+        };
+    }
+}

@@ -1,0 +1,35 @@
+/*
+ ###########################################################
+ ### Warning: this file has been generated automatically ###
+ ###                    DO NOT MODIFY                    ###
+ ###########################################################
+*/
+
+using System;
+using NF.StateMachine;
+
+namespace {{ a.name }}.States
+{
+    public partial class {{ a.name }}{{ s.name }}State : Base{{ a.name }}State
+    {
+        public {{ a.name }}{{ s.name }}State()
+            : base({{ a.name }}StateTokens.{{ s.name }})
+        {
+        }
+
+        protected override void OnInitialized()
+        {
+            PreInitialized();
+
+            base.OnInitialized();
+            {%- for tr in transitions -%}
+            RegisterActionHandler({{ a.name }}ActionTokens.{{ tr.name }}, On{{ a.name }}{{ tr.name }}Action);
+            {%- endfor -%}
+
+            PostInitialized();
+        }
+
+        partial void PreInitialized();
+        partial void PostInitialized();
+    }
+}

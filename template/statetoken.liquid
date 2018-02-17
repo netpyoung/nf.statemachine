@@ -1,0 +1,26 @@
+/*
+ ###########################################################
+ ### Warning: this file has been generated automatically ###
+ ###                    DO NOT MODIFY                    ###
+ ###########################################################
+*/
+
+using System;
+using NF.StateMachine;
+
+namespace {{ a.name }}
+{
+public static class {{ a.name }}StateTokens
+    {
+        {%- for s in a.states -%}
+            public static readonly StateToken {{ s.name }} = new StateToken(nameof({{ s.name }}));
+        {%- endfor -%}
+
+        public static readonly StateToken[] Items = 
+        {
+        {%- for s in a.states -%}
+            {{ s.name }},
+        {%- endfor -%}
+        };
+    }
+}

@@ -1,0 +1,36 @@
+/*
+ ###########################################################
+ ### Warning: this file has been generated automatically ###
+ ###                    DO NOT MODIFY                    ###
+ ###########################################################
+*/
+
+using System;
+using NF.StateMachine;
+using {{ a.name }}.States;
+
+namespace {{ a.name }}
+{
+    partial class {{ a.name }}StateMachine : StateManager
+    {
+        public {{ a.name }}StateMachine() : this(null)
+        {
+        }
+
+        public {{ a.name }}StateMachine(object context) : base(context)
+        {
+            PreHandlersRegistration();
+
+            {%- for state in a.states -%}
+            RegisterState(new {{ a.name }}{{ state.name }}State());
+            {%- endfor -%}
+
+            PostHandlersRegistration();
+
+            SetInitialState({{ a.name }}StateTokens.{{ a.states.first.name }});
+        }
+
+        partial void PreHandlersRegistration();
+        partial void PostHandlersRegistration();
+    }
+}
