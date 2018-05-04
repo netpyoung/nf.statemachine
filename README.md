@@ -1,3 +1,7 @@
+# deprecated.
+* this project is deprecated.
+* how about this? https://github.com/netpyoung/nf.state-flow
+
 # What's this?
 
  This project was based in [bitcraftCoLtd/finite-state-machine](https://github.com/bitcraftCoLtd/finite-state-machine).
